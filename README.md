@@ -31,7 +31,6 @@ This project turns 12 raw operational files into a five-page interactive Power B
 ![Inventory](Images/Inventory_and_warehouse.png)
 ![Deliveries](Images/Shipment_and_delivery.png)
 ![Products](Images/Supplier_and_product.png)
-![Data model](Images/Model_view.png)
 ---
 
 ## 2. Folder structure
@@ -84,7 +83,9 @@ All tables are loaded with the prefix `SwiftLog_`. The Date table and the measur
 - Date (1) to Orders (many) on Date and OrderDate
 - Suppliers has no relationship (see Limitations)
 
-The model screenshot is saved in `Images/` (add `Data_model.png` from the Model view if not already there).
+### Model Preview
+
+![Data model](Images/Model_view.png)
 
 ---
 
