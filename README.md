@@ -52,7 +52,7 @@ Week5_DataAnalytics_SwiftLog_Okoro_Joseph/
 
 ---
 
-## 3. Data model (Part 1)
+## 3. Data model
 
 All tables are loaded with the prefix `SwiftLog_`. The Date table and the measures table are created in the model.
 
@@ -89,7 +89,7 @@ All tables are loaded with the prefix `SwiftLog_`. The Date table and the measur
 
 ---
 
-## 4. Data cleaning and transformation log (Part 2)
+## 4. Data cleaning and transformation log
 
 Quality checks run before modelling: row counts, nulls, duplicate keys, referential integrity between every fact and dimension, value ranges and date range.
 
@@ -108,8 +108,7 @@ Further check: all 250 products appear in Inventory, and every product that was 
 
 ---
 
-## 5. KPIs and DAX measures (Part 3)
-
+## 5. KPIs and DAX measures
 All measures live in the `_Measures` table.
 
 | # | Measure | DAX (summary) | Business value |
@@ -143,7 +142,7 @@ The Order Frequency chart uses a helper table, `Order Frequency Bands`, with the
 
 ---
 
-## 6. Dashboard pages (Part 4)
+## 6. Dashboard pages
 
 | Page | Purpose | Main visuals |
 |---|---|---|
