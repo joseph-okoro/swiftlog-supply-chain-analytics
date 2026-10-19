@@ -24,6 +24,14 @@ This project turns 12 raw operational files into a five-page interactive Power B
 | Inventory | 1.01M units in stock, turnover 0.055; W12 (96.9%) and W02 (91.0%) exceed 90% utilisation at an assumed 80,000-unit capacity; 142 product-warehouse lines are below 50 units |
 | Suppliers | Supplier performance cannot be measured: no table links suppliers to products (documented limitation) |
 
+### Dashboard Preview
+
+![Executive](Images/Executive_dashboard.png)
+![Customers](Images/Customer_analytics.png)
+![Inventory](Images/Inventory_and_warehouse.png)
+![Deliveries](Images/Shipment_and_delivery.png)
+![Products](Images/Supplier_and_product.png)
+![Data model](Images/Model_view.png)
 ---
 
 ## 2. Folder structure
@@ -76,7 +84,7 @@ All tables are loaded with the prefix `SwiftLog_`. The Date table and the measur
 - Date (1) to Orders (many) on Date and OrderDate
 - Suppliers has no relationship (see Limitations)
 
-The model screenshot is saved in `Images/` (add `00_Data_Model.png` from the Model view if not already there).
+The model screenshot is saved in `Images/` (add `Data_model.png` from the Model view if not already there).
 
 ---
 
